@@ -212,8 +212,6 @@ export default function Home() {
       {/* OUR STORY */}
       <OurStory />
 
-      {/* Testimonial */}
-      <Testimonial isLoading={isLoading} />
 
       {/* POST FROM BLOG */}
       <section className="bg-[var(--bg-shade)]">
