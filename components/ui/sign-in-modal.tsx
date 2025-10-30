@@ -127,15 +127,15 @@ export const SignInModal: React.FC<SignInModalProps> = ({
         </div>
 
         {/* Submit Button */}
-          <Button
-            type="submit"
-            variant="primary"
-            size="lg"
-            btnClassName="w-full"
-            disabled={isLoading}
-          >
-            {isLoading ? "Signing In..." : "Sign In"}
-          </Button>
+        <Button
+          type="submit"
+          variant="primary"
+          size="lg"
+          btnClassName="w-full"
+          disabled={isLoading}
+        >
+          {isLoading ? "Signing In..." : "Sign In"}
+        </Button>
 
         {/* Divider */}
         <div className="relative">
@@ -181,7 +181,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({
 
         {/* Sign Up Link */}
         <p className="text-center text-sm text-[var(--minor-text)]">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <button
             type="button"
             onClick={() => {

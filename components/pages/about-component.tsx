@@ -456,7 +456,7 @@ export const Testimonial: React.FC<testimonialProps> = ({ isLoading }) => {
             WebkitOverflowScrolling: "touch",
           }}
         >
-          {TestimonialsData.map((data, index: any) => (
+          {TestimonialsData.map((data, index: number) => (
             <TestimonialsCard
               key={index}
               image={data.image}

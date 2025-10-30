@@ -71,15 +71,15 @@ export default function BookingForm() {
   const specialRooms = accommodationData[0].rooms;
   const standardRooms = accommodationData[1].rooms;
 
-  const formatDate = (dateString: any) => {
-    if (!dateString) return "";
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
-  };
+const formatDate = (dateString: string | number | Date): string => {
+  if (!dateString) return "";
+  const date = new Date(dateString);
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+};
 
   type CalendarPickerProps = {
     value: string;

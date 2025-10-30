@@ -3,7 +3,7 @@
 import { RoomCards } from "../cards/rooms-card";
 import { RoomDetailsModal } from "../ui/room-details-modal";
 import { PaymentModal } from "../ui/payment-modal";
-import accommotionData from "@/public/data/accommodation.json";
+import accommodationData from "@/public/data/accommodation.json";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -19,6 +19,12 @@ type Room = {
   price: number;
   typeOfAccommodation: string;
 };
+  
+type AccommodationData = {
+  title: string;
+  subHeader: string;
+  rooms: Room[];
+};
 
 export const SpecialAccommodation: React.FC<accommodationProps> = ({
   isLoading,
@@ -27,7 +33,7 @@ export const SpecialAccommodation: React.FC<accommodationProps> = ({
   const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null);
 
-  const specialAccommodation = accommotionData.filter((acc: any) =>
+  const specialAccommodation = accommodationData.filter((acc: AccommodationData) =>
     acc.title.toLowerCase().includes("special")
   );
 
@@ -65,7 +71,7 @@ export const SpecialAccommodation: React.FC<accommodationProps> = ({
           </motion.div>
 
           <div className="flex-center flex-wrap gap-5  p-5 lg:p-7 ">
-            {item.rooms.map((room: any, roomIndex: any) => (
+            {item.rooms.map((room: Room, roomIndex: number) => (
               <motion.div
                 key={roomIndex}
                 initial={{ opacity: 0, y: 50 }}
@@ -111,7 +117,7 @@ export const StandardAccommodations: React.FC<accommodationProps> = ({
   const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null);
 
-  const standardAccommodation = accommotionData.filter((acc: any) =>
+  const standardAccommodation = accommodationData.filter((acc: AccommodationData) =>
     acc.title.toLowerCase().includes("standard")
   );
 
@@ -132,7 +138,7 @@ export const StandardAccommodations: React.FC<accommodationProps> = ({
 
   return (
     <section>
-      {standardAccommodation.map((item, index) => (
+      {standardAccommodation.map((item, index: number) => (
         <div
           key={index}
           className="section-padding grid grid-cols-1 items-center justify-center gap-[50px] min-h-screen "
@@ -149,7 +155,7 @@ export const StandardAccommodations: React.FC<accommodationProps> = ({
           </motion.div>
 
           <div className="flex-center flex-wrap gap-5  p-5 lg:p-7 ">
-            {item.rooms.map((room: any, roomIdx: any) => (
+            {item.rooms.map((room: Room, roomIdx: number) => (
               <motion.div
                 key={roomIdx}
                 initial={{ opacity: 0, y: 50 }}
