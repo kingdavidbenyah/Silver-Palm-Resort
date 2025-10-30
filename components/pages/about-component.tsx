@@ -37,7 +37,7 @@ export const OurStory = () => {
   ];
 
   return (
-    <section className="min-h-[80%] flex-center">
+    <section className="min-h-[80%] flex-center overflow-hidden">
       <div className="container-wide section-padding flex flex-col lg:flex-row items-center justify-center gap-24 lg:gap-14">
         {/* INFO */}
         <motion.div
