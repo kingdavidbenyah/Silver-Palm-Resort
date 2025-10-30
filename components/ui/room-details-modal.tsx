@@ -31,6 +31,22 @@ export const RoomDetailsModal = ({
       onClose={onClose}
       title={room.name}
       modalClassName=" md:max-w-[850px] lg:max-w-[950px] md:h-auto"
+      footer={        
+        <div className="flex items-center justify-between pt-4 border-t border-[var(--major-text)]/10">
+          <div>
+            <p className="text-sm text-[var(--minor-text)]">Starting from</p>
+            <p className="text-2xl font-bold text-[var(--major-text)]">
+              ${room.price}
+              <span className="text-sm font-normal text-[var(--minor-text)]">
+                /night
+              </span>
+            </p>
+          </div>
+          <Button variant="primary" onClick={onBookNow}>
+            Book Now
+          </Button>
+        </div>
+      }
     >
       <div className="flex flex-col md:flex-row md:justify-between gap-5 md:gap-10 items-center space-y-6">
         {/* Room Image */}
@@ -95,21 +111,7 @@ export const RoomDetailsModal = ({
             </ul>
           </div>
 
-          {/* Price and Book Button */}
-          <div className="flex items-center justify-between pt-4 border-t border-[var(--major-text)]/10">
-            <div>
-              <p className="text-sm text-[var(--minor-text)]">Starting from</p>
-              <p className="text-2xl font-bold text-[var(--major-text)]">
-                ${room.price}
-                <span className="text-sm font-normal text-[var(--minor-text)]">
-                  /night
-                </span>
-              </p>
-            </div>
-            <Button variant="primary" onClick={onBookNow}>
-              Book Now
-            </Button>
-          </div>
+          
         </div>
       </div>
     </Modal>
