@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Celebrating Success: Milestones That Matter",
+    "description": "From graduations to new beginnings, Silver Palm Resort is proud to host moments that mark your greatest achievements. Discover how our serene environment turns every milestone into a cherished memory.",
+    "moreDetails": "Life’s biggest achievements deserve to be celebrated in style. Whether it’s a graduation, promotion, or wedding anniversary, Silver Palm Resort offers the perfect blend of elegance and comfort to make every occasion unforgettable. Our event spaces, customized décor, and personalized service ensure your moment of joy becomes a lasting memory for everyone who shares it with you.",
+    "category": ["Education", "Lifestyle", "Events"],
+    "author": "Sophia Adjei",
+    "date": "20 Oct, 2025",
+    "views": 15000,
+    "likes": 9050,
+    "image": "/img/blog/posts/education-1.jpeg"
+  },
+  {
+    "title": "The Future of Travel: Tech Meets Tranquility",
+    "description": "Silver Palm Resort embraces innovation to enhance your stay — from smart check-ins to personalized digital concierge service, experience the next level of resort hospitality.",
+    "moreDetails": "Imagine checking in without a line, unlocking your room with a tap, and having your preferences remembered from your last visit. At Silver Palm Resort, technology meets tranquility to create a seamless, stress-free experience. Our smart systems anticipate your needs so you can focus on what truly matters — relaxation, exploration, and connection.",
+    "category": ["Technology", "Travel", "Innovation"],
+    "author": "Naomi Asare",
+    "date": "13 Oct, 2025",
+    "views": 25450,
+    "likes": 12600,
+    "image": "/img/blog/posts/technology-1.jpeg"
+  },
+  {
+    "title": "Lazy Days, Great Stays: Comfort Without Compromise",
+    "description": "Sometimes the best vacation moments are found right inside your room. From breakfast in bed to movie nights with a view, enjoy every quiet moment at Silver Palm Resort.",
+    "moreDetails": "Not every getaway has to be about constant activity — sometimes, it’s about slowing down. Our rooms are designed for maximum comfort with plush bedding, ambient lighting, and scenic views. Indulge in room service, catch your favorite films, or simply relax with a good book as the sun sets over the horizon.",
+    "category": ["Lifestyle", "Leisure", "Relaxation"],
+    "author": "Michael Ofori",
+    "date": "15 Oct, 2025",
+    "views": 20100,
+    "likes": 10500,
+    "image": "/img/blog/posts/lifestyle-1.jpeg"
+  },
+  {
+    "title": "Island Escapes: The Magic of Coastal Serenity",
+    "description": "Unwind by turquoise waters and white sandy beaches. Our exclusive island destinations redefine luxury and bring you closer to nature’s calm embrace.",
+    "moreDetails": "There’s something truly magical about escaping to an island where the only sounds are the waves and the whispering breeze. Our coastal retreats combine breathtaking views with world-class comfort — ideal for honeymooners, adventurers, or anyone seeking solitude in paradise. Every sunrise here feels like a new beginning.",
+    "category": ["Travel", "Luxury", "Leisure"],
+    "author": "Clara Boateng",
+    "date": "16 Oct, 2025",
+    "views": 30000,
+    "likes": 12300,
+    "image": "/img/blog/posts/travel-1.png"
+  },
+  {
+    "title": "Balancing Body and Mind: The Science of Wellness",
+    "description": "Modern wellness meets timeless care. Learn how our spa and fitness programs blend relaxation, nutrition, and mindfulness to keep your body energized and your spirit grounded.",
+    "moreDetails": "Our holistic wellness programs are designed to nurture every part of you — body, mind, and soul. Enjoy rejuvenating spa therapies, guided meditation sessions, and nutrient-rich culinary experiences tailored to your needs. Whether you’re detoxing or simply seeking balance, Silver Palm Resort offers a sanctuary of serenity and renewal.",
+    "category": ["Health", "Education", "Wellness"],
+    "author": "Angela Quaye",
+    "date": "08 Oct, 2025",
+    "views": 45000,
+    "likes": 20000,
+    "image": "/img/blog/posts/lifestyle-2.png"
+  },
+  {
+    "title": "Golden Hour by the Pool: The Art of Relaxation",
+    "description": "Soak in the sunset from our infinity pool — where time slows, and peace takes over. Perfect for evening swims, cocktails, and unforgettable photo moments.",
+    "moreDetails": "There’s no better time to unwind than golden hour. As the sun dips below the horizon, our infinity pool glows with warm reflections and calm waves. Lounge with a signature cocktail, take a refreshing dip, or capture the moment as the sky turns into a masterpiece. At Silver Palm Resort, relaxation becomes an art form.",
+    "category": ["Travel", "Lifestyle", "Relaxation"],
+    "author": "Evelyn Nartey",
+    "date": "12 Oct, 2025",
+    "views": 14500,
+    "likes": 3200,
+    "image": "/img/blog/posts/travel-2.png"
+  },
+  {
+    "title": "Wellness Retreats: Reconnect, Refresh, Renew",
+    "description": "Take a breath of fresh air with our wellness and yoga retreats. Experience the perfect balance of body and mind surrounded by lush gardens and peaceful mornings at Silver Palm Resort.",
+    "moreDetails": "Our wellness retreats are more than just getaways — they are journeys toward self-discovery. From early-morning yoga sessions to nature walks and organic meals, every detail is designed to help you reconnect with your inner calm. Escape the chaos, breathe deeply, and find renewal in the heart of nature.",
+    "category": ["Health", "Lifestyle", "Wellness"],
+    "author": "Daniel Mensah",
+    "date": "18 Oct, 2025",
+    "views": 17000,
+    "likes": 5700,
+    "image": "/img/blog/posts/health-1.jpeg"
+  },
+  {
+    "title": "Taste the Paradise: Gourmet Flavors Await",
+    "description": "From sizzling grills to refreshing tropical cocktails, our chefs bring a burst of flavor to every plate. Explore dishes that make dining at Silver Palm a journey of its own.",
+    "moreDetails": "Dining at Silver Palm Resort is a full-sensory experience. Our culinary team draws inspiration from both local and international cuisines, creating a menu that excites the palate and celebrates freshness. Whether you’re savoring seafood by the ocean or enjoying a romantic dinner under the stars, every bite tells a story of paradise.",
+    "category": ["Food", "Lifestyle", "Experience"],
+    "author": "Kwesi Owusu",
+    "date": "10 Oct, 2025",
+    "views": 22000,
+    "likes": 7000,
+    "image": "/img/blog/posts/food-1.jpeg"
+  }
+]

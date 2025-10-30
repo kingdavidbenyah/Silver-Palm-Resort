@@ -1,0 +1,90 @@
+import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { RoomCards } from "@/components/cards/rooms-card";
+import { FacilitiesCard } from "@/components/cards/facilities-cards";
+import { TestimonialsCard } from "@/components/cards/testimonials-card";
+import { BlogCard } from "@/components/cards/blog-card";
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="flex flex-wrap items-center gap-20 py-40">
+      <Button>Click Me</Button>
+      <ThemeToggle />
+      <RoomCards
+        image="/img/honeymoon-suite.jpeg"
+        roomType="Honeymoon Suite"
+        pricePerNight={210}
+      />
+      <FacilitiesCard
+        facility="Restaurant"
+        icon={
+          <Image
+            src="/svg/fork-and-spoon.svg"
+            alt="Fork and Spoon img"
+            width={24}
+            height={24}
+          />
+        }
+        about="Savor exquisite meals prepared with fresh, locally sourced ingredients in an inviting, nature-inspired atmosphere."
+      />
+`      <TestimonialsCard
+        image="/img/testimonial1.png"
+        testimonial="The staff were incredibly attentive and made us feel right at home. The room was spacious, clean, and beautifully decorated."
+        rating={5}
+        guestName="Dr. Michelle Smith"
+        guestOccupation="Doctor"
+        isVerified={true}
+      />
+`
+      <BlogCard
+        image="/img/blog-1.png"
+        blogTitle="Exploring the Beauty of Nature"
+        description="Discover how to experience the world beautifully without breaking the bank. From budget-friendly getaways to hidden gems, explore ways to travel smart and live richly."
+        date={new Date("2025-10-20")}
+        tags={["Nature", "Travel", "Photography"]}
+        onClick={() => console.log("Blog card clicked")}
+      />
+    </div>
+  );
+}
+
+
+<section
+  className="relative bg-[url('/images/facilities-bg.jpg')] bg-cover bg-center bg-fixed text-white py-32"
+>
+  <div className="absolute inset-0 bg-black/50"></div>
+
+  <div className="relative container mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Royal Facilities</h2>
+    <p className="text-lg mb-10">Who are in extremely love with eco-friendly systems.</p>
+
+    <div className="grid md:grid-cols-3 gap-6">
+      <!-- Your facility cards here -->
+    </div>
+  </div>
+</section>
+
+
+"use client";
+import { motion, useScroll, useTransform } from "framer-motion";
+
+export default function ParallaxSection() {
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 500], [0, -100]); // moves bg upward
+
+  return (
+    <div className="relative overflow-hidden h-[600px] text-white">
+      <motion.div
+        style={{ y }}
+        className="absolute inset-0 bg-[url('/images/facilities-bg.jpg')] bg-cover bg-center"
+      />
+      <div className="absolute inset-0 bg-black/50" />
+
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
+        <h2 className="text-5xl font-bold mb-4">Royal Facilities</h2>
+        <p className="text-lg">Who are in extremely love with eco-friendly systems.</p>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Special Accommodations",
+    "subHeader": "Discover rooms designed for relaxation, style, and timeless luxury.",
+    "rooms": [
+      {
+        "name": "Presidential Ocean Suite",
+        "description": "A stunning suite featuring a private terrace, infinity jacuzzi, and sweeping views of the Atlantic. Perfect for luxury seekers.",
+        "imageUrl": "https://i.pinimg.com/736x/9c/4b/5e/9c4b5e895b40991cae2fedbbeb4c47d2.jpg",
+        "price": 1200,
+        "typeOfAccommodation": "special"
+      },
+      {
+        "name": "Penthouse Sky Villa",
+        "description": "Located on the top floor, the Sky Villa offers an unmatched blend of comfort and exclusivity, complete with a private lounge.",
+        "imageUrl": "https://i.pinimg.com/736x/08/3f/f1/083ff1caf4ac004aea6e04bc2da255f0.jpg",
+        "price": 1050,
+        "typeOfAccommodation": "special"
+      },
+      {
+        "name": "Royal Honeymoon Suite",
+        "description": "Designed for romance, this suite features a four-poster bed, private balcony, and rose-petal turndown service.",
+        "imageUrl": "https://i.pinimg.com/1200x/f6/b8/0e/f6b80edde439a89b170e30ee6a1f292c.jpg",
+        "price": 850,
+        "typeOfAccommodation": "special"
+      },
+      {
+        "name": "Executive Garden Villa",
+        "description": "Nestled among tropical gardens, this spacious villa offers a private pool, outdoor lounge, and premium concierge services.",
+        "imageUrl": "https://i.pinimg.com/736x/97/3e/8c/973e8ccd270b89386693df3188169d99.jpg",
+        "price": 750,
+        "typeOfAccommodation": "special"
+      }
+    ]
+  },
+
+  {
+    "title": "Standard Accommodations",
+    "subHeader": "Where comfort meets elegance — designed for a restful and memorable stay.",
+    "rooms": [
+      {
+        "name": "Deluxe Ocean View Room",
+        "description": "Wake up to the sound of waves in this elegant room with a sea-facing balcony and modern furnishings.",
+        "imageUrl": "https://i.pinimg.com/736x/9b/43/5e/9b435e5dad72b83fcf03c317707e4771.jpg",
+        "price": 420,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Classic Double Room",
+        "description": "Comfortable and refined, this room offers a cozy retreat with queen-size bedding and a serene ambiance.",
+        "imageUrl": "https://i.pinimg.com/1200x/09/b8/f8/09b8f88e8b569df52b7db731c43c13db.jpg",
+        "price": 350,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Superior Twin Room",
+        "description": "Ideal for friends or colleagues, the twin room provides stylish comfort with premium amenities and work desk.",
+        "imageUrl": "https://i.pinimg.com/736x/60/b8/a0/60b8a0d5412b2a4cc24706444422f3b7.jpg",
+        "price": 330,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Garden View Deluxe Room",
+        "description": "Overlooking the resort’s lush gardens, this room offers tranquility and charm with soft pastel interiors.",
+        "imageUrl": "https://i.pinimg.com/736x/f1/94/e8/f194e8372e737c0905e3b2a26ef88f20.jpg",
+        "price": 370,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Standard Single Room",
+        "description": "A simple yet elegant space designed for solo travelers, featuring all the essentials for a comfortable stay.",
+        "imageUrl": "https://i.pinimg.com/736x/50/fa/b2/50fab2859f5c3d9315dcd7fb44799637.jpg",
+        "price": 250,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Poolside Standard Room",
+        "description": "Enjoy easy access to the pool area from your doorstep, with a bright and refreshing design aesthetic.",
+        "imageUrl": "https://i.pinimg.com/736x/37/dd/34/37dd34a20644974745a332a0b5ad9186.jpg",
+        "price": 310,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Coastal Studio Room",
+        "description": "Modern and compact, this room offers a smart design, ocean-inspired colors, and cozy workspace.",
+        "imageUrl": "https://i.pinimg.com/1200x/58/1f/90/581f908283d0e02e342e4f808f3a1c93.jpg",
+        "price": 290,
+        "typeOfAccommodation": "standard"
+      },
+      {
+        "name": "Mountain View Room",
+        "description": "Perfect for nature lovers, this serene retreat overlooks the nearby hills and lush tropical greenery.",
+        "imageUrl": "https://i.pinimg.com/1200x/98/26/94/982694e67bfff1db3e2bb79c89e184ab.jpg",
+        "price": 300,
+        "typeOfAccommodation": "standard"
+      }
+    ]
+  }
+]

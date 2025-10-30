@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://i.pinimg.com/736x/5a/7f/df/5a7fdfdb1da6d5e865796dc6b73d0214.jpg",
+    "testimonial": "From the friendly team to the lush surroundings, our family loved every minute.",
+    "rating": 3.5,
+    "guestName": "Dr. Michelle Smith",
+    "guestOccupation": "Doctor",
+    "isVerified": true
+  },
+  {
+    "image": "https://i.pinimg.com/736x/aa/08/91/aa0891e0a9536fae8d91b52dc6d062a9.jpg",
+    "testimonial": "An unforgettable experience! The spa services were world-class and the ocean view from our suite was breathtaking.",
+    "rating": 5,
+    "guestName": "James Anderson",
+    "guestOccupation": "Architect",
+    "isVerified": true
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/40/df/45/40df45bf56df9ae9f399f64c6778c8f0.jpg",
+    "testimonial": "Perfect romantic getaway. The attention to detail and personalized service made our anniversary truly special.",
+    "rating": 5,
+    "guestName": "Sarah & Michael Roberts",
+    "guestOccupation": "Entrepreneurs",
+    "isVerified": false
+  },
+  {
+    "image": "https://i.pinimg.com/736x/7b/3a/22/7b3a22b8a85acb7bf39860df5ec89f48.jpg",
+    "testimonial": "The culinary experience alone is worth the visit. Every meal was a masterpiece, and the beachfront dining was magical.",
+    "rating": 4,
+    "guestName": "Chef Marie Laurent",
+    "guestOccupation": "Chef",
+    "isVerified": true
+  },
+  {
+    "image": "https://i.pinimg.com/736x/7b/23/87/7b23879f4603aa520f681105894225a8.jpg",
+    "testimonial": "Outstanding facilities and incredibly welcoming staff. The kids loved the pool and we appreciated the eco-friendly approach.",
+    "rating": 5,
+    "guestName": "The Thompson Family",
+    "guestOccupation": "Teachers",
+    "isVerified": true
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/3e/f3/50/3ef350dc86cc82a092463e5d795654b5.jpg",
+    "testimonial": "A tranquil paradise. The gardens are stunning and the room service was impeccable. Will definitely return!",
+    "rating": 4,
+    "guestName": "David Chen",
+    "guestOccupation": "Photographer",
+    "isVerified": false
+  },
+  {
+    "image": "https://i.pinimg.com/736x/bf/41/84/bf418445b1f51688ad918794241eeb4e.jpg",
+    "testimonial": "Exceeded all expectations. From the warm welcome to the luxurious amenities, everything was perfect for our honeymoon.",
+    "rating": 5,
+    "guestName": "Emma & Lucas Martinez",
+    "guestOccupation": "Newlyweds",
+    "isVerified": true
+  }
+]
