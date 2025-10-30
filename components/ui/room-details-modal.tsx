@@ -32,7 +32,7 @@ export const RoomDetailsModal = ({
       title={room.name}
       modalClassName=" md:max-w-[850px] lg:max-w-[950px] md:h-auto"
       footer={        
-        <div className="flex items-center justify-between pt-4 border-t border-[var(--major-text)]/10">
+        <div className="flex items-center justify-between ">
           <div>
             <p className="text-sm text-[var(--minor-text)]">Starting from</p>
             <p className="text-2xl font-bold text-[var(--major-text)]">
